@@ -1,0 +1,30 @@
+.op1{
+	color: red;
+	
+}
+
+#op2{
+	color: #EA2CDC;
+}
+.titulo_principal{
+	text-align: center;
+	
+	
+}
+
+span li {
+	list-style:  none;
+	display: inline;
+
+}
+.cont_titulo{
+	border: red solid 2px;
+	margin: 15px auto;
+	width: 35%;
+	background-image: linear-gradient(red, blue, green)
+}
+
+.barra_navegacion{
+	border: red solid 2px;
+
+}
