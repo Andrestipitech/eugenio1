@@ -10,11 +10,16 @@
 	</header>
 	<nav class="barra_navegacion">
 		<ul>
-			<span><li class="op1">opcion1</li></span>
+			<span><li class="op1"><a href="https://www.youtube.com/">Opcion1</a></li></span>
 			<span><li id="op2">opcion2</li></span>
 		</ul>
 	</nav>
-	<section>
+	<aside class="barra_lateral">
+		<li>Inicio</li>
+		<li>Final</li>
+	</aside>
+	<div class="cont_principal">
+		<section>
 		<p>Primera parte</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -26,12 +31,12 @@
 
 	<hr>
 
-	<div>
+	<div class="imagen_1">
 		<figure>
 			<img src="img/paisaje.jpg" width="300" height="200">
 		</figure>
 	</div>
-	<section>
+	<section class="texto_2">
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation  <span style="color: red">HOLA</span> laboris nisi ut aliquip ex ea commodo
@@ -41,22 +46,24 @@
 
 	</section>
 
-	<section>
+	<section class="video_archivo">
 		<h2>Video Local</h2>
 		<div>
 			<video src="video/video1.mp4" width="400" height="300" controls poster="img/paisaje.jpg">    </video>
 		</div>
 	</section>
 
-	<section>
+	<section class="video_youtube">
 		<h2>YouTube</h2>
 		<div>
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/gkSU59a8bkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		</div>
 	</section>
+	</div>
+	
 
 
-	<footer>
+	<footer class="pie_pagina">
 		<em>Los derechos de autos son </em>
 		<p> <small>Andres &copy </small></p>
 		<address>tfno: 099232378</address>

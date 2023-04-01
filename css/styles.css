@@ -8,7 +8,7 @@
 }
 .titulo_principal{
 	text-align: center;
-	
+	color: white;
 	
 }
 
@@ -27,4 +27,29 @@ span li {
 .barra_navegacion{
 	border: red solid 2px;
 
+}
+
+.barra_lateral{
+	border: red solid 2px;
+	float: left;
+	height: 1300px;
+	padding-left: 16px;
+}
+
+.cont_principal{
+	border: red solid 2px;
+	margin-left: 80px;
+	padding-left: 20px;
+}
+.pie_pagina{
+	border: red solid 2px;
+	clear: both;
+	padding-left: 100px;
+	text-align: center;
+}
+.video_archivo{
+	text-align: center;
+}
+body{
+	background-color: #B3EF5E;
 }
